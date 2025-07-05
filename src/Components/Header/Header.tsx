@@ -3,6 +3,7 @@ import userIcon from './images/user-icon.png'
 import cl from './header.module.css'
 import React, { useState } from 'react'
 import { MenuModal } from '../Modals/MenuModal/MenuModal'
+import { AnimatePresence, motion } from 'framer-motion'
 
 export const Header = () => {
   const [modal, setModal] = useState<string>('none')
@@ -36,7 +37,7 @@ export const Header = () => {
         src={userIcon}
         alt="user-icon"
       />
-      {modal === 'menu' && <MenuModal />}
+      <MenuModal modal={modal} />
     </div>
   )
 }
