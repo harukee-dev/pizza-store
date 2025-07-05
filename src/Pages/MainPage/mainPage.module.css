@@ -10,29 +10,29 @@
   filter: brightness(90%);
 }
 
-.krug {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 7vh;
-  width: 25vh;
-  background-color: #fdd6d6;
-  border-radius: 3vh;
-  color: #f54748;
-  transform: translateY(20vh);
-  font-size: 1.5vh;
-  font-family: 'PoppinsSemoBold', sans-serif;
-}
-
 .krug img {
   margin-top: 0.5vh;
 }
 
+.krug{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 7vh;
+    width: 25vh;
+    background-color: #FDD6D6;
+    border-radius: 3vh;
+    color: #F54748;
+    margin: 0 auto;
+    transform: translateY(20vh);
+    font-size: 1.5vh;
+    font-family: "Poppins SemiBold", sans-serif;
+}
 .redwhitetext {
   margin-top: 25vh;
   font-size: 8vh;
   text-align: center;
-  font-family: 'PoppinsBold', sans-serif;
+  font-family: 'Poppins Bold', sans-serif;
 }
 
 .podtext {
@@ -43,7 +43,7 @@
   color: #fff;
   margin-left: 61vh;
   margin-top: 5vh;
-  font-family: 'PoppinsSemoBold', sans-serif;
+  font-family: 'Poppins SemiBold', sans-serif;
 }
 
 .redbutton {
@@ -56,6 +56,27 @@
   margin-top: 5vh;
 }
 
+.podtext{
+    text-align: center;
+    width: 63vh;
+    height: 7vh;
+    font-size: 2.5vh;
+    color: #fff;
+    margin-left: 57vh;
+    margin-top: 5vh;
+    font-family: "Poppins SemiBold", sans-serif;
+}
+
+.redbutton{
+    border: none;
+    background-color: #F54748;
+    height: 7vh;
+    width: 21.5vh;
+    margin-left: 77vh;
+    border-radius: 4vh;
+    margin-top: 5vh;
+  }
+  
 .spanTitle {
   color: #f54748;
   transition: ease 0.2s;
@@ -68,7 +89,7 @@
 .textinbutton {
   color: #fff;
   font-size: 2vh;
-  font-family: 'PoppinsMedium', sans-serif;
+  font-family: 'Poppins Medium', sans-serif;
 }
 
 .whiteback {
@@ -80,7 +101,7 @@
 .redtext {
   color: #f54748;
   font-size: 2.5vh;
-  font-family: 'PoppinsBold', sans-serif;
+  font-family: 'Poppins Bold', sans-serif;
   letter-spacing: 0.3vh;
 }
 
@@ -91,7 +112,7 @@
 
 .blacktext {
   color: #141414;
-  font-family: 'PoppinsBold', sans-serif;
+  font-family: 'Poppins Bold', sans-serif;
 }
 
 .whiteback h1 {
@@ -147,7 +168,7 @@
 .textgrey {
   color: #787878;
   font-size: 2vh;
-  font-family: 'PoppinsMedium', sans-serif;
+  font-family: 'Poppins Medium', sans-serif;
 }
 
 .redback {
@@ -171,7 +192,7 @@
 }
 .redback h2 {
   color: #fff;
-  font-family: 'PoppinsBold', sans-serif;
+  font-family: 'Poppins Bold', sans-serif;
   margin-bottom: 10vh;
   font-size: 2.5vh;
   letter-spacing: 1vh;
@@ -191,7 +212,7 @@
 }
 
 .redback h4 {
-  font-family: 'PoppinsSemoBold', sans-serif;
+  font-family: 'Poppins SemiBold', sans-serif;
   font-size: 2vh;
   color: #141414;
   margin-left: 35vh;
