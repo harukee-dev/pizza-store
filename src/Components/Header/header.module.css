@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headerContainer {
+  background-color: red;
+  display: flex;
+  height: 7vh;
+  padding: 0.5vh;
+}
