@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.pizzaback {
+  position: absolute;
+  z-index: -100000;
+  width: 100%;
+  filter: brightness(90%);
+}
+
+.krug{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 6vh;
+    width: 23vh;
+    background-color: #FDD6D6;
+    border-radius: 3vh;
+    color: #F54748;
+    margin-left: 95vh;
+    transform: translateY(20vh);
+    font-size: 1.5;
+    
+}
+
+.redwhitetext{
+    margin-top: 25vh;
+    font-size: 7vh;
+    font-size: 8vh;
+    text-align: center;
+}
+
+.podtext{
+    text-align: center;
+    width: 63vh;
+    height: 7vh;
+    font-size: 2.5vh;
+    color: #fff;
+    margin-left: 70vh;
+    margin-top: 7vh;
+}
