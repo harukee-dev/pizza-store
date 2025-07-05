@@ -4,8 +4,52 @@
 }
 
 .headerContainer {
-  background-color: red;
+  background-color: white;
+  border-bottom: 1px solid black;
   display: flex;
-  height: 7vh;
-  padding: 0.5vh;
+  align-items: center;
+  justify-content: space-between;
+  height: 6.6vh;
+  padding: 0.5vh 5vw;
+}
+
+.pizzaTitle {
+  font-size: 2.5vh;
+  font-family: 'Poppins Bold', sans-serif;
+  color: #141414;
+}
+
+.pizzaLogo {
+  height: 5.5vh;
+}
+
+.interactionContainer {
+  display: flex;
+  align-items: center;
+  gap: 5vw;
+}
+
+.headerLink {
+  background-color: transparent;
+  border: none;
+  font-size: 1.75vh;
+  font-family: 'Poppins SemiBold', sans-serif;
+  color: #141414;
+  cursor: pointer;
+  transition: ease 0.15s;
+}
+
+.headerLink:hover {
+  color: #f54748;
+}
+
+.userIcon {
+  height: 5vh;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: ease 0.15s;
+}
+
+.userIcon:hover {
+  transform: scale(1.05);
 }
