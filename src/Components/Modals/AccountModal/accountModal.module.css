@@ -1,0 +1,24 @@
+.modalContainer {
+  position: absolute;
+  top: 7.5vh;
+  left: 90vw;
+  width: 7vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.modalButton {
+  height: 4.5vh;
+  border: none;
+  font-size: 1.5vh;
+  font-family: 'Poppins SemiBold', sans-serif;
+  color: #141414;
+  cursor: pointer;
+  background-color: white;
+  transition: ease 0.15s;
+}
+
+.modalButton:hover {
+  background-color: #fff6f6;
+  color: #f54748;
+}

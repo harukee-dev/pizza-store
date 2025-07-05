@@ -1,0 +1,36 @@
+.menuContainer {
+  position: absolute;
+  top: 7.55vh;
+  left: 50.5%;
+}
+
+.menuButton {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  width: 10vw;
+  padding: 0.75vh 0 0.75vh 1vh;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  transition: ease 0.15s;
+}
+
+.menuButton:hover {
+  background-color: #fff6f6;
+  .buttonTitle {
+    color: #f54748;
+  }
+}
+
+.buttonIcon {
+  border-radius: 100%;
+  height: 4vh;
+}
+
+.buttonTitle {
+  font-size: 1.6vh;
+  font-family: 'Poppins SemiBold', sans-serif;
+  color: #141414;
+  transition: ease 0.15s;
+}
