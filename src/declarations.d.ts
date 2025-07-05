@@ -1,34 +1,38 @@
-// global.d.ts
-declare module "*.module.css" {
-  const classes: { [key: string]: string };
-  export default classes;
-}
-// global.d.ts или declarations.d.ts
-declare module "*.png" {
-  const content: string;
-  export default content;
+declare module '*.module.css' {
+  const classes: { [key: string]: string }
+  export default classes
 }
 
-declare module "*.jpg" {
-  const content: string;
-  export default content;
+declare module '*.css' {
+  const classes: { [key: string]: string }
+  export default classes
 }
 
-declare module "*.jpeg" {
-  const content: string;
-  export default content;
+declare module '*.png' {
+  const content: string
+  export default content
 }
 
-declare module "*.gif" {
-  const content: string;
-  export default content;
+declare module '*.jpg' {
+  const content: string
+  export default content
 }
 
-declare module "*.svg" {
-  import * as React from "react";
+declare module '*.jpeg' {
+  const content: string
+  export default content
+}
+
+declare module '*.gif' {
+  const content: string
+  export default content
+}
+
+declare module '*.svg' {
+  import * as React from 'react'
   export const ReactComponent: React.FunctionComponent<
     React.SVGProps<SVGSVGElement>
-  >;
-  const src: string;
-  export default src;
+  >
+  const src: string
+  export default src
 }
