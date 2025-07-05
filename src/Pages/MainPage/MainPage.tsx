@@ -11,7 +11,7 @@ import style from "./mainPage.module.css"
 export const MainPage = () => {
   return (
     <div>
-      <img src={pizzaback} alt="pizza" className={style.pizzaback} />
+      <img draggable={false} src={pizzaback} alt="pizza" className={style.pizzaback} />
       <div className={style.krug}>
       <h2>Beyond Speedy </h2> <img src={pizza} alt="pizza" />
     </div>
@@ -34,17 +34,17 @@ export const MainPage = () => {
         <h1 className={style.blacktext}>Your Preferred Food Delivery Companion</h1>
         <div className={style.cardContainer}>
             <div className={style.card}>
-                <img src={card1} alt="card1" />
+                <img draggable={false} src={card1} alt="card1" />
                 <h1 className={style.blacktext}>Convenient Ordering</h1>
                 <h2 className={style.textgrey}>Ordering food requires just a few simple steps</h2>
             </div>
             <div className={style.card}>
-                <img src={card2} alt="card2" />
+                <img draggable={false} src={card2} alt="card2" />
                 <h1 className={style.blacktext}>Quickest Delivery</h1>
                 <h2 className={style.textgrey}>Consistently Timely Delivery, Even Faster</h2>
             </div>
             <div className={style.card}>
-                <img src={card3} alt="card3" />
+                <img draggable={false} src={card3} alt="card3" />
                 <h1 className={style.blacktext}>Superior Quality</h1>
                 <h2 className={style.textgrey}>For us, quality is paramount, not just speed</h2>
             </div>
@@ -54,12 +54,12 @@ export const MainPage = () => {
                 <h2>Customer Testimonials</h2>
                 <h1 className={style.blacktext}>What Customers Have to Say About Us</h1>
                 <h3 className={style.podtext}>"Pizzateria is exceptional. With a wide array of delicious meals and excellent service, including remarkably fast delivery, I wholeheartedly recommend Pizzateria to you."</h3>
-                <img className={style.humanface} src={humanface} alt="human face" />
+                <img draggable={false} className={style.humanface} src={humanface} alt="human face" />
                 <h4>Aracelly Xaviera</h4>
                 <h5 className={style.textinbutton}>Culinary Enthusiast</h5>
-                <img className={style.star}  src={star} alt="star" />
+                <img draggable={false} className={style.star}  src={star} alt="star" />
             </div>
-            <img className={style.pizzaredback} src={pizzaredback} alt="pizza" />
+            <img draggable={false} className={style.pizzaredback} src={pizzaredback} alt="pizza" />
         </div>
     </div>
     </div>
