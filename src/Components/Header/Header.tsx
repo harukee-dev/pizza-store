@@ -1,9 +1,9 @@
 import pizzaLogo from './images/pizzateria-logo.png'
 import userIcon from './images/user-icon.png'
 import cl from './header.module.css'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { MenuModal } from '../Modals/MenuModal/MenuModal'
-import { AnimatePresence, motion } from 'framer-motion'
+import { AccountModal } from '../Modals/AccountModal/AccountModal'
 
 export const Header = () => {
   const [modal, setModal] = useState<string>('none')
@@ -11,6 +11,11 @@ export const Header = () => {
   const handleMenu = () => {
     if (modal === 'menu') setModal('none')
     else setModal('menu')
+  }
+
+  const handleUser = () => {
+    if (modal === 'user') setModal('none')
+    else setModal('user')
   }
 
   return (
@@ -32,11 +37,13 @@ export const Header = () => {
         <button className={cl.headerLink}>Contact</button>
       </div>
       <img
+        onClick={handleUser}
         className={cl.userIcon}
         draggable={false}
         src={userIcon}
         alt="user-icon"
       />
+      <AccountModal modal={modal} />
       <MenuModal modal={modal} />
     </div>
   )
