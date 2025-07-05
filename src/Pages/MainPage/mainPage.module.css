@@ -8,28 +8,34 @@
   z-index: -100000;
   width: 100%;
   filter: brightness(90%);
+
 }
 
 .krug{
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 6vh;
-    width: 23vh;
+    height: 7vh;
+    width: 25vh;
     background-color: #FDD6D6;
     border-radius: 3vh;
     color: #F54748;
     margin-left: 95vh;
     transform: translateY(20vh);
-    font-size: 1.5;
+    font-size: 1.5vh;
+    font-family: "PoppinsSemoBold", sans-serif;
     
+}
+
+.krug img{
+    margin-top: 0.5vh;
 }
 
 .redwhitetext{
     margin-top: 25vh;
-    font-size: 7vh;
     font-size: 8vh;
     text-align: center;
+    font-family: "PoppinsBold", sans-serif;
 }
 
 .podtext{
@@ -38,6 +44,161 @@
     height: 7vh;
     font-size: 2.5vh;
     color: #fff;
-    margin-left: 70vh;
-    margin-top: 7vh;
+    margin-left: 75vh;
+    margin-top: 5vh;
+    font-family: "PoppinsSemoBold", sans-serif;
+}
+
+.redbutton{
+    border: none;
+    background-color: #F54748;
+    height: 7vh;
+    width: 21.5vh;
+    margin-left: 95vh;
+    border-radius: 4vh;
+    margin-top: 5vh;
+}
+
+.textinbutton{
+    color: #fff;
+    font-size: 2vh;
+    font-family: "PoppinsMedium", sans-serif;
+}
+
+.whiteback{
+    background-color: #fff;
+    height:110vh;
+    margin-top: 10vh;
+}
+
+.redtext{
+    color: #F54748;
+    font-size: 2.5vh;
+    font-family: "PoppinsBold", sans-serif;
+    letter-spacing: 0.3vh;
+}
+
+.whiteback h2{
+    margin-left: 15vh;
+    padding-top: 20vh;
+}
+
+.blacktext{
+    color: #141414;
+    font-family: "PoppinsBold", sans-serif;
+}
+
+.whiteback h1{
+    font-size: 6vh;
+    width: 60vh;
+    height: 15vh;
+    line-height: 7.5vh;
+    margin-left: 15vh;
+    margin-top: 5vh;
+}
+.cardContainer{
+    display: flex; 
+    gap: 10vh;
+    margin-left: 40vh;
+    margin-top: 10vh;
+}
+
+.card{
+    width: 37vh;
+    height: 45vh;
+    background-color: #fff;
+    border-radius: 3vh;
+    transition: ease 0.2s;
+    box-shadow: 0.1vh 0.1vh 0.6vh #0d0d0d6a;
+}
+
+.card:hover{
+    box-shadow: 0.1vh 0.1vh 1vh #0d0d0d6a;
+}
+
+.card img{
+    margin-left: 7vh;
+}
+
+.card h1{
+    font-size: 3vh;
+    justify-items: center;
+    margin-left: 3vh;
+    width: 30vh;
+    margin-left: 4vh;
+    text-align: center;
+    margin-top: 0vh;
+}
+
+.card h2{
+    margin: 0;
+    margin-left: 4vh;
+    text-align: center;
+    width: 29vh;
+    margin-top: -25vh;
+}
+
+.textgrey{
+    color: #787878;
+    font-size: 2vh;
+    font-family: "PoppinsMedium", sans-serif;
+}
+
+.redback{
+    height: 90vh;
+    width: 100%;
+    margin-top: 20vh;
+    background-color: #F54748;
+}
+.pizzaredback{
+    position: absolute;
+    right: 10vh;
+    top: 230vh;
+    width: 90vh;
+}
+
+.redback h1{
+    color: #FFF;
+    margin-left: 25vh;
+    margin-top: -5vh;
+    width: 75vh;
+}
+.redback h2{
+    color: #fff;
+    font-family: "PoppinsBold", sans-serif;
+    margin-bottom: 10vh;
+    font-size: 2.5vh;
+    letter-spacing: 1vh;
+    line-height: 100%;
+    margin-left: 25vh;
+}
+
+.redback h3{
+    margin-left: 25vh;
+    text-align: left;
+}
+
+.humanface{
+    position: absolute;
+    left: 25vh;
+    margin-top: 10vh;
+}
+
+.redback h4{
+    font-family: "PoppinsSemoBold", sans-serif;
+    font-size: 2vh;
+    color: #141414;
+    margin-left: 35vh;
+    margin-top: 10vh;
+}
+
+.redback h5{
+    margin-left: 35vh;
+    margin-top: 1vh;
+}
+
+.star{
+    position: absolute;
+    left: 30vh;
+    margin-top: 3vh;
 }
