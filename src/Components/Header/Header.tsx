@@ -1,8 +1,17 @@
 import pizzaLogo from './images/pizzateria-logo.png'
 import userIcon from './images/user-icon.png'
 import cl from './header.module.css'
+import React, { useState } from 'react'
+import { MenuModal } from '../Modals/MenuModal/MenuModal'
 
 export const Header = () => {
+  const [modal, setModal] = useState<string>('none')
+
+  const handleMenu = () => {
+    if (modal === 'menu') setModal('none')
+    else setModal('menu')
+  }
+
   return (
     <div className={cl.headerContainer}>
       <div style={{ display: 'flex', alignItems: 'center' }}>
@@ -16,7 +25,9 @@ export const Header = () => {
       </div>
       <div className={cl.interactionContainer}>
         <button className={cl.headerLink}>Why Pizzateria?</button>
-        <button className={cl.headerLink}>Menu</button>
+        <button onClick={handleMenu} className={cl.headerLink}>
+          Menu
+        </button>
         <button className={cl.headerLink}>Contact</button>
       </div>
       <img
@@ -25,6 +36,7 @@ export const Header = () => {
         src={userIcon}
         alt="user-icon"
       />
+      {modal === 'menu' && <MenuModal />}
     </div>
   )
 }
