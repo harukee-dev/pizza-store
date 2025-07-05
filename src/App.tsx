@@ -1,13 +1,15 @@
-import React from "react";
-import { MainPage } from "./Pages/MainPage/MainPage";
+import React from 'react'
+import { MainPage } from './Pages/MainPage/MainPage'
 import { Header } from './Components/Header/Header'
+import { ErrorPage } from './Pages/ErrorPage/ErrorPage'
 
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      <Header />
+      <ErrorPage />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
