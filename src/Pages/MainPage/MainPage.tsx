@@ -8,6 +8,8 @@ import humanface from "./images/humanface.png"
 import star from "./images/star.png"
 import style from "./mainPage.module.css"
 
+import {Footer} from "../../Components/Footer/Footer"
+
 export const MainPage = () => {
   return (
     <div>
@@ -61,6 +63,7 @@ export const MainPage = () => {
             </div>
             <img draggable={false} className={style.pizzaredback} src={pizzaredback} alt="pizza" />
         </div>
+        <Footer/>
     </div>
     </div>
 
