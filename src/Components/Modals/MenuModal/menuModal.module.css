@@ -1,15 +1,23 @@
 .menuContainer {
   position: absolute;
-  top: 7.55vh;
+  z-index: 2;
+  top: 8.2vh;
   left: 50.5%;
+  padding: 1vh;
+  border-radius: 1.5vh;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
 }
 
 .menuButton {
   display: flex;
   align-items: center;
-  gap: 0.5vw;
+  gap: 0.25vw;
   width: 10vw;
   padding: 0.75vh 0 0.75vh 1vh;
+  border-radius: 3vh;
   background-color: white;
   border: none;
   cursor: pointer;
@@ -17,15 +25,16 @@
 }
 
 .menuButton:hover {
-  background-color: #fff6f6;
+  background-color: #f54748;
   .buttonTitle {
-    color: #f54748;
+    color: white;
   }
 }
 
 .buttonIcon {
   border-radius: 100%;
   height: 4vh;
+  border-radius: 100%;
 }
 
 .buttonTitle {

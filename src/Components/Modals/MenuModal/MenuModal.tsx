@@ -1,6 +1,8 @@
-import pizzaIcon from './images/pizza-icon.jpg'
-import drinksIcon from './images/drinks-icon.png'
-import dessertsIcon from './images/desserts-icon.png'
+import pizzaIcon from './images/pizza-icon.png'
+import burgerIcon from './images/burder-icon.png'
+import cupcakeIcon from './images/cupcake-icon.png'
+import icecreamIcon from './images/icecream-icon.png'
+import ramenIcon from './images/ramen-icon.png'
 import cl from './menuModal.module.css'
 import React from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
@@ -19,14 +21,23 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
           initial={{ clipPath: 'inset(0% 0% 100% 0%)' }}
           animate={{ clipPath: 'inset(0% 0% 0% 0%)' }}
           exit={{ clipPath: 'inset(0% 0% 100% 0%)' }}
-          transition={{ duration: 0.3, ease: 'easeOut' }}
+          transition={{ duration: 0.35, ease: 'easeInOut' }}
         >
           <button className={cl.menuButton}>
             <img
               draggable={false}
               className={cl.buttonIcon}
-              src={pizzaIcon}
+              src={burgerIcon}
               alt="pizza-icon"
+            />
+            <p className={cl.buttonTitle}>Burger</p>
+          </button>
+          <button className={cl.menuButton}>
+            <img
+              draggable={false}
+              className={cl.buttonIcon}
+              src={pizzaIcon}
+              alt="drinks-icon"
             />
             <p className={cl.buttonTitle}>Pizza</p>
           </button>
@@ -34,19 +45,28 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
             <img
               draggable={false}
               className={cl.buttonIcon}
-              src={drinksIcon}
-              alt="drinks-icon"
+              src={cupcakeIcon}
+              alt="desserts-icon"
             />
-            <p className={cl.buttonTitle}>Drinks</p>
+            <p className={cl.buttonTitle}>Cup Cake</p>
           </button>
           <button className={cl.menuButton}>
             <img
               draggable={false}
               className={cl.buttonIcon}
-              src={dessertsIcon}
+              src={ramenIcon}
               alt="desserts-icon"
             />
-            <p className={cl.buttonTitle}>Desserts</p>
+            <p className={cl.buttonTitle}>Ramen</p>
+          </button>
+          <button className={cl.menuButton}>
+            <img
+              draggable={false}
+              className={cl.buttonIcon}
+              src={icecreamIcon}
+              alt="desserts-icon"
+            />
+            <p className={cl.buttonTitle}>Ice Cream</p>
           </button>
         </motion.div>
       )}
