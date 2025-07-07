@@ -32,6 +32,10 @@
   }
 }
 
+.menuButton:active {
+  transform: scale(0.97);
+}
+
 .buttonIcon {
   border-radius: 100%;
   height: 4vh;
