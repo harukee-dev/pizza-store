@@ -1,6 +1,12 @@
 .modalContainer {
   position: absolute;
-  top: 7.5vh;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5vh;
+  top: 8.2vh;
+  padding: 1vh;
+  background-color: white;
+  border-radius: 1.5vh;
   left: 90vw;
   width: 7vw;
   display: flex;
@@ -14,11 +20,12 @@
   font-family: 'Poppins SemiBold', sans-serif;
   color: #141414;
   cursor: pointer;
+  border-radius: 3vh;
   background-color: white;
   transition: ease 0.15s;
 }
 
 .modalButton:hover {
-  background-color: #fff6f6;
-  color: #f54748;
+  background-color: #f54748;
+  color: white;
 }
