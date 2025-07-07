@@ -8,7 +8,7 @@ import humanface from './images/humanface.png'
 import star from './images/star.png'
 import style from './mainPage.module.css'
 
-import {Footer} from "../../Components/Footer/Footer"
+import { Footer } from '../../Components/Footer/Footer'
 
 export const MainPage = () => {
   return (
@@ -31,10 +31,10 @@ export const MainPage = () => {
         </h1>
       </div>
       <div className={style.podtextpapa}>
-      <h1 className={style.podtext}>
-        Our mission is to satisfy your appetite with delectable dishes,
-        delivered swiftly and at no extra cost
-      </h1>
+        <h1 className={style.podtext}>
+          Our mission is to satisfy your appetite with delectable dishes,
+          delivered swiftly and at no extra cost
+        </h1>
       </div>
       <div className={style.redbuttonFather}>
         <button className={style.redbutton}>
@@ -102,11 +102,9 @@ export const MainPage = () => {
             src={pizzaredback}
             alt="pizza"
           />
-          </div>
-          <Footer/>
         </div>
-        </div> 
-        <Footer/>
+        <Footer />
+      </div>
     </div>
   )
 }
