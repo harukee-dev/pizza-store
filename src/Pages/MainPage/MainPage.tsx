@@ -9,6 +9,7 @@ import star from './images/star.png'
 import style from './mainPage.module.css'
 
 import { Footer } from '../../Components/Footer/Footer'
+import { Link } from 'react-router-dom'
 
 export const MainPage = () => {
   return (
@@ -37,9 +38,9 @@ export const MainPage = () => {
         </h1>
       </div>
       <div className={style.redbuttonFather}>
-        <button className={style.redbutton}>
-          <h1 className={style.textinbutton}>Get Started</h1>
-        </button>
+        <Link to={'/login'} className={style.redbutton}>
+          Get Started
+        </Link>
       </div>
       <div className={style.whiteback}>
         <h2 className={style.redtext}>Our Offerings</h2>
