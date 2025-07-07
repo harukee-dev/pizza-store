@@ -1,5 +1,6 @@
 import React from 'react'
 import { Header } from './Components/Header/Header'
+import { Footer } from "./Components/Footer/Footer";
 import { ErrorPage } from './Pages/ErrorPage/ErrorPage'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import { MainPage } from './Pages/MainPage/MainPage'
