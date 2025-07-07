@@ -18,6 +18,7 @@ export const AccountModal: React.FC<IAccountModal> = ({ modal }) => {
           className={cl.modalContainer}
         >
           <button className={cl.modalButton}>My Orders</button>
+          <button className={cl.modalButton}>Settings</button>
           <button className={cl.modalButton}>Logout</button>
         </motion.div>
       )}
