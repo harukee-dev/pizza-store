@@ -6,7 +6,7 @@ export const ErrorPage = () => {
     <div className={cl.pageContainer}>
       <div className={cl.titleContainer}>
         <h1 className={cl.four}>4</h1>
-        <img src={pizzaImage} alt="pizza-image" />
+        <img draggable={false} src={pizzaImage} alt="pizza-image" />
         <h1 className={cl.four}>4</h1>
       </div>
       <h2 className={cl.title}>Whoops... Page Not Found</h2>
