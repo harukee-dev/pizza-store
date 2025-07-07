@@ -8,7 +8,10 @@
   z-index: -100000;
   width: 100%;
   filter: brightness(90%);
+}
 
+.krug img {
+  margin-top: 0.5vh;
 }
 
 .krug{
@@ -20,22 +23,37 @@
     background-color: #FDD6D6;
     border-radius: 3vh;
     color: #F54748;
-    margin-left: 80vh;
+    margin: 0 auto;
     transform: translateY(20vh);
     font-size: 1.5vh;
-    font-family: "PoppinsSemoBold", sans-serif;
-    
+    font-family: "Poppins SemiBold", sans-serif;
+}
+.redwhitetext {
+  margin-top: 25vh;
+  font-size: 8vh;
+  text-align: center;
+  font-family: 'Poppins Bold', sans-serif;
 }
 
-.krug img{
-    margin-top: 0.5vh;
+.podtext {
+  text-align: center;
+  width: 63vh;
+  height: 7vh;
+  font-size: 2.5vh;
+  color: #fff;
+  margin-left: 61vh;
+  margin-top: 5vh;
+  font-family: 'Poppins SemiBold', sans-serif;
 }
 
-.redwhitetext{
-    margin-top: 25vh;
-    font-size: 8vh;
-    text-align: center;
-    font-family: "PoppinsBold", sans-serif;
+.redbutton {
+  border: none;
+  background-color: #f05656;
+  height: 7vh;
+  width: 21.5vh;
+  margin-left: 82vh;
+  border-radius: 4vh;
+  margin-top: 5vh;
 }
 
 .podtext{
@@ -44,9 +62,9 @@
     height: 7vh;
     font-size: 2.5vh;
     color: #fff;
-    margin-left: 61vh;
+    margin-left: 57vh;
     margin-top: 5vh;
-    font-family: "PoppinsSemoBold", sans-serif;
+    font-family: "Poppins SemiBold", sans-serif;
 }
 
 .redbutton{
@@ -54,151 +72,160 @@
     background-color: #F54748;
     height: 7vh;
     width: 21.5vh;
-    margin-left: 82vh;
+    margin-left: 77vh;
     border-radius: 4vh;
     margin-top: 5vh;
+  }
+  
+.spanTitle {
+  color: #f54748;
+  transition: ease 0.2s;
 }
 
-.textinbutton{
-    color: #fff;
-    font-size: 2vh;
-    font-family: "PoppinsMedium", sans-serif;
+.spanTitle:hover {
+  letter-spacing: 0.5vh;
 }
 
-.whiteback{
-    background-color: #fff;
-    height:110vh;
-    margin-top: 10vh;
+.textinbutton {
+  color: #fff;
+  font-size: 2vh;
+  font-family: 'Poppins Medium', sans-serif;
 }
 
-.redtext{
-    color: #F54748;
-    font-size: 2.5vh;
-    font-family: "PoppinsBold", sans-serif;
-    letter-spacing: 0.3vh;
+.whiteback {
+  background-color: #fff;
+  height: 110vh;
+  margin-top: 10vh;
 }
 
-.whiteback h2{
-    margin-left: 15vh;
-    padding-top: 20vh;
+.redtext {
+  color: #f54748;
+  font-size: 2.5vh;
+  font-family: 'Poppins Bold', sans-serif;
+  letter-spacing: 0.3vh;
 }
 
-.blacktext{
-    color: #141414;
-    font-family: "PoppinsBold", sans-serif;
+.whiteback h2 {
+  margin-left: 15vh;
+  padding-top: 20vh;
 }
 
-.whiteback h1{
-    font-size: 6vh;
-    width: 60vh;
-    height: 15vh;
-    line-height: 7.5vh;
-    margin-left: 15vh;
-    margin-top: 5vh;
-}
-.cardContainer{
-    display: flex; 
-    gap: 10vh;
-    margin-left: 25vh;
-    margin-top: 10vh;
+.blacktext {
+  color: #141414;
+  font-family: 'Poppins Bold', sans-serif;
 }
 
-.card{
-    width: 37vh;
-    height: 45vh;
-    background-color: #fff;
-    border-radius: 3vh;
-    transition: ease 0.2s;
-    box-shadow: 0.1vh 0.1vh 0.6vh #0d0d0d6a;
+.whiteback h1 {
+  font-size: 6vh;
+  width: 60vh;
+  height: 15vh;
+  line-height: 7.5vh;
+  margin-left: 15vh;
+  margin-top: 5vh;
+}
+.cardContainer {
+  display: flex;
+  gap: 10vh;
+  margin-left: 25vh;
+  margin-top: 10vh;
 }
 
-.card:hover{
-    box-shadow: 0.1vh 0.1vh 1vh #0d0d0d6a;
+.card {
+  width: 37vh;
+  height: 45vh;
+  background-color: #fff;
+  border-radius: 3vh;
+  transition: ease 0.2s;
+  box-shadow: 0.1vh 0.1vh 0.6vh #0d0d0d6a;
 }
 
-.card img{
-    margin-left: 7vh;
+.card:hover {
+  box-shadow: 0.1vh 0.1vh 1vh #0d0d0d6a;
 }
 
-.card h1{
-    font-size: 3vh;
-    justify-items: center;
-    margin-left: 3vh;
-    width: 30vh;
-    margin-left: 4vh;
-    text-align: center;
-    margin-top: 0vh;
+.card img {
+  margin-left: 7vh;
 }
 
-.card h2{
-    margin: 0;
-    margin-left: 4vh;
-    text-align: center;
-    width: 29vh;
-    margin-top: -25vh;
+.card h1 {
+  font-size: 3vh;
+  justify-items: center;
+  margin-left: 3vh;
+  width: 30vh;
+  margin-left: 4vh;
+  text-align: center;
+  margin-top: 0vh;
 }
 
-.textgrey{
-    color: #787878;
-    font-size: 2vh;
-    font-family: "PoppinsMedium", sans-serif;
+.card h2 {
+  margin: 0;
+  margin-left: 4vh;
+  text-align: center;
+  width: 29vh;
+  margin-top: -25vh;
 }
 
-.redback{
-    height: 90vh;
-    width: 100%;
-    margin-top: 20vh;
-    background-color: #F54748;
-}
-.pizzaredback{
-    position: absolute;
-    right: 1vh;
-    top: 235vh;
-    width: 80vh;
+.textgrey {
+  color: #787878;
+  font-size: 2vh;
+  font-family: 'Poppins Medium', sans-serif;
 }
 
-.redback h1{
-    color: #FFF;
-    margin-left: 25vh;
-    margin-top: -5vh;
-    width: 75vh;
+.redback {
+  height: 90vh;
+  width: 100%;
+  margin-top: 20vh;
+  background-color: #f54748;
 }
-.redback h2{
-    color: #fff;
-    font-family: "PoppinsBold", sans-serif;
-    margin-bottom: 10vh;
-    font-size: 2.5vh;
-    letter-spacing: 1vh;
-    line-height: 100%;
-    margin-left: 25vh;
+.pizzaredback {
+  position: absolute;
+  right: 1vh;
+  top: 235vh;
+  width: 80vh;
 }
 
-.redback h3{
-    margin-left: 25vh;
-    text-align: left;
+.redback h1 {
+  color: #fff;
+  margin-left: 25vh;
+  margin-top: -5vh;
+  width: 75vh;
+}
+.redback h2 {
+  color: #fff;
+  font-family: 'Poppins Bold', sans-serif;
+  margin-bottom: 10vh;
+  font-size: 2.5vh;
+  letter-spacing: 1vh;
+  line-height: 100%;
+  margin-left: 25vh;
 }
 
-.humanface{
-    position: absolute;
-    left: 25vh;
-    margin-top: 10vh;
+.redback h3 {
+  margin-left: 25vh;
+  text-align: left;
 }
 
-.redback h4{
-    font-family: "PoppinsSemoBold", sans-serif;
-    font-size: 2vh;
-    color: #141414;
-    margin-left: 35vh;
-    margin-top: 10vh;
+.humanface {
+  position: absolute;
+  left: 25vh;
+  margin-top: 10vh;
 }
 
-.redback h5{
-    margin-left: 35vh;
-    margin-top: 1vh;
+.redback h4 {
+  font-family: 'Poppins SemiBold', sans-serif;
+  font-size: 2vh;
+  color: #141414;
+  margin-left: 35vh;
+  margin-top: 10vh;
 }
 
-.star{
-    position: absolute;
-    left: 30vh;
-    margin-top: 3vh;
+.redback h5 {
+  margin-left: 35vh;
+  margin-top: 1vh;
+}
+
+.star {
+  position: absolute;
+  left: 30vh;
+  margin-top: 3vh;
 }
