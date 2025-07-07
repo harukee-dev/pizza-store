@@ -16,10 +16,12 @@
   font-size: 2.5vh;
   font-family: 'Poppins Bold', sans-serif;
   color: #141414;
+  cursor: pointer;
 }
 
 .pizzaLogo {
   height: 5.5vh;
+  cursor: pointer;
 }
 
 .interactionContainer {

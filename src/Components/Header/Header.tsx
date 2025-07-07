@@ -4,6 +4,7 @@ import cl from './header.module.css'
 import { useState } from 'react'
 import { MenuModal } from '../Modals/MenuModal/MenuModal'
 import { AccountModal } from '../Modals/AccountModal/AccountModal'
+import { Link } from 'react-router-dom'
 
 export const Header = () => {
   const [modal, setModal] = useState<string>('none')
@@ -20,7 +21,14 @@ export const Header = () => {
 
   return (
     <div className={cl.headerContainer}>
-      <div style={{ display: 'flex', alignItems: 'center' }}>
+      <Link
+        to={'/'}
+        style={{
+          display: 'flex',
+          alignItems: 'center',
+          textDecoration: 'none',
+        }}
+      >
         <img
           className={cl.pizzaLogo}
           draggable={false}
@@ -28,7 +36,7 @@ export const Header = () => {
           alt="logo"
         />
         <p className={cl.pizzaTitle}>Pizzateria</p>
-      </div>
+      </Link>
       <div className={cl.interactionContainer}>
         <button className={cl.headerLink}>Why Pizzateria?</button>
         <button onClick={handleMenu} className={cl.headerLink}>
