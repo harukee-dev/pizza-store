@@ -105,6 +105,8 @@ export const MainPage = () => {
           </div>
           <Footer/>
         </div>
+        </div> 
+        <Footer/>
     </div>
   )
 }
