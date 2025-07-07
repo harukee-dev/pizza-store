@@ -30,16 +30,17 @@ export const MainPage = () => {
           with Speed
         </h1>
       </div>
-
+      <div className={style.podtextpapa}>
       <h1 className={style.podtext}>
         Our mission is to satisfy your appetite with delectable dishes,
         delivered swiftly and at no extra cost
       </h1>
-
-      <button className={style.redbutton}>
-        <h1 className={style.textinbutton}>Get Started</h1>
-      </button>
-
+      </div>
+      <div className={style.redbuttonFather}>
+        <button className={style.redbutton}>
+          <h1 className={style.textinbutton}>Get Started</h1>
+        </button>
+      </div>
       <div className={style.whiteback}>
         <h2 className={style.redtext}>Our Offerings</h2>
 
@@ -101,8 +102,9 @@ export const MainPage = () => {
             src={pizzaredback}
             alt="pizza"
           />
+          </div>
+          <Footer/>
         </div>
-        <Footer/>
     </div>
   )
 }

@@ -12,6 +12,7 @@
 
 .krug img {
   margin-top: 0.5vh;
+  z-index: 1;
 }
 
 .krug{
@@ -27,6 +28,7 @@
     transform: translateY(20vh);
     font-size: 1.5vh;
     font-family: "Poppins SemiBold", sans-serif;
+    z-index: 1;
 }
 .redwhitetext {
   margin-top: 25vh;
@@ -56,26 +58,46 @@
   margin-top: 5vh;
 }
 
+.podtextpapa{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
 .podtext{
-    text-align: center;
-    width: 63vh;
-    height: 7vh;
-    font-size: 2.5vh;
-    color: #fff;
-    margin-left: 57vh;
-    margin-top: 5vh;
-    font-family: "Poppins SemiBold", sans-serif;
+  text-align: center;
+  width: 63vh;
+  height: 7vh;
+  font-size: 2.5vh;
+  color: #fff;
+  margin: auto auto;
+  margin-top: 5vh;
+  font-family: "Poppins SemiBold", sans-serif;
+}
+
+.redbuttonFather{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 
 .redbutton{
-    border: none;
-    background-color: #F54748;
-    height: 7vh;
-    width: 21.5vh;
-    margin-left: 77vh;
-    border-radius: 4vh;
-    margin-top: 5vh;
-  }
+  border: none;
+  background-color: #F54748;
+  height: 7vh;
+  width: 21.5vh;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4vh;
+  margin-top: 5vh;
+  cursor: pointer;
+  user-select: none;
+  transition: ease 0.3s;
+}
+
+.redbutton:hover{
+  transform: scale(1.03);
+}
   
 .spanTitle {
   color: #f54748;
@@ -150,9 +172,8 @@
 .card h1 {
   font-size: 3vh;
   justify-items: center;
-  margin-left: 3vh;
-  width: 30vh;
-  margin-left: 4vh;
+  width: 35vh;
+  margin-left: 2vh;
   text-align: center;
   margin-top: 0vh;
 }
@@ -178,9 +199,8 @@
   background-color: #f54748;
 }
 .pizzaredback {
-  position: absolute;
-  right: 1vh;
-  top: 235vh;
+  margin-top: -50vh;
+  margin-left: 95vh;
   width: 80vh;
 }
 

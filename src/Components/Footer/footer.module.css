@@ -14,7 +14,7 @@ p{
   color: white;
   padding: 2vh 0;
   text-align: center;
-  font-family: "Poppins", sans-serif;
+  font-family: "PoppinsSemiBold", sans-serif;
 }
 
 .links{
@@ -22,6 +22,22 @@ p{
     display: flex;
     flex-direction: column;
     gap: 1.5vh;
+}
+
+.linkpapa{
+    font-family: "PoppinsBold" sans-serif;
+    color: #141414;
+    display: flex;
+    margin-left: 35vh;
+    margin-bottom: 5vh;
+    margin-top: -5vh;
+}
+
+.papa{
+    width: 50vh;
+    height: 2.5vh;
+    font-size: 2.5vh;
+    margin-top: -10vh;
 }
 
 .link{
@@ -32,6 +48,8 @@ p{
     background-color: #fff;
     margin-left: 70vh;
     transition: ease, 0.3s;
+    color: #787878;
+    cursor: pointer;
 }
 .link:hover{
     color:  #F54748;
@@ -47,13 +65,20 @@ p{
     width: 15vh;
     position: absolute;
     right: 20vh;
+    margin-top: 10vh;
+}
+
+.textnizpapa{
+    display: flex;
+    justify-content: right;
+
 }
 
 .textniz{
-    display: flex;
-    justify-content: right;
     margin-right: 13vh;
     margin-bottom: 5vh;
+    margin-top: -10vh;
+    width: 60vh;
 }
 
 .links h1{
