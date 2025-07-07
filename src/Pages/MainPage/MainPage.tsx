@@ -102,6 +102,7 @@ export const MainPage = () => {
             alt="pizza"
           />
         </div>
+        </div> 
         <Footer/>
     </div>
   )
