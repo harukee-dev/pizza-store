@@ -147,14 +147,15 @@
 }
 .cardContainer {
   display: flex;
+  justify-content: center;
+  text-align: center;
   gap: 10vh;
-  margin-left: 25vh;
   margin-top: 10vh;
 }
 
 .card {
   width: 37vh;
-  height: 45vh;
+  height: 50vh;
   background-color: #fff;
   border-radius: 3vh;
   transition: ease 0.2s;
@@ -165,23 +166,16 @@
   box-shadow: 0.1vh 0.1vh 1vh #0d0d0d6a;
 }
 
-.card img {
-  margin-left: 7vh;
-}
-
 .card h1 {
   font-size: 3vh;
-  justify-items: center;
   width: 35vh;
   margin-left: 2vh;
-  text-align: center;
   margin-top: 0vh;
 }
 
 .card h2 {
   margin: 0;
   margin-left: 4vh;
-  text-align: center;
   width: 29vh;
   margin-top: -25vh;
 }

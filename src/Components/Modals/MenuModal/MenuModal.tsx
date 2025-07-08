@@ -45,7 +45,7 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
           <Link to={'/menu/cupcake'} className={cl.menuButton}>
             <img
               draggable={false}
-              className={cl.buttonIcon}
+              className={cl.buttonIconcup}
               src={cupcakeIcon}
               alt="desserts-icon"
             />
