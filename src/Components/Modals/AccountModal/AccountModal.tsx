@@ -1,6 +1,7 @@
 import React from 'react'
 import cl from './accountModal.module.css'
 import { AnimatePresence, motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 interface IAccountModal {
   modal: string
@@ -17,8 +18,15 @@ export const AccountModal: React.FC<IAccountModal> = ({ modal }) => {
           transition={{ duration: 0.3, ease: 'easeOut' }}
           className={cl.modalContainer}
         >
-          <button className={cl.modalButton}>My Orders</button>
-          <button className={cl.modalButton}>Logout</button>
+          <Link to={'/orders'} className={cl.modalButton}>
+            My Orders
+          </Link>
+          <Link to={'/profile'} className={cl.modalButton}>
+            Settings
+          </Link>
+          <Link to={'/login'} className={cl.modalButton}>
+            Logout
+          </Link>
         </motion.div>
       )}
     </AnimatePresence>

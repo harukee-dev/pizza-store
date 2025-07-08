@@ -15,20 +15,20 @@
   z-index: 1;
 }
 
-.krug{
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-    height: 7vh;
-    width: 25vh;
-    background-color: #FDD6D6;
-    border-radius: 3vh;
-    color: #F54748;
-    margin: 0 auto;
-    transform: translateY(20vh);
-    font-size: 1.5vh;
-    font-family: "Poppins SemiBold", sans-serif;
-    z-index: 1;
+.krug {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7vh;
+  width: 25vh;
+  background-color: #fdd6d6;
+  border-radius: 3vh;
+  color: #f54748;
+  margin: 0 auto;
+  transform: translateY(20vh);
+  font-size: 1.5vh;
+  font-family: 'Poppins SemiBold', sans-serif;
+  z-index: 1;
 }
 .redwhitetext {
   margin-top: 25vh;
@@ -56,34 +56,36 @@
   margin-left: 82vh;
   border-radius: 4vh;
   margin-top: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.podtextpapa{
+.podtextpapa {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
-.podtext{
+.podtext {
   text-align: center;
   width: 63vh;
   height: 7vh;
   font-size: 2.5vh;
   color: #fff;
-  margin: auto auto;
   margin-top: 5vh;
-  font-family: "Poppins SemiBold", sans-serif;
+  font-family: 'Poppins SemiBold', sans-serif;
 }
 
-.redbuttonFather{
+.redbuttonFather {
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
 
-.redbutton{
+.redbutton {
   border: none;
-  background-color: #F54748;
+  background-color: #f54748;
   height: 7vh;
   width: 21.5vh;
   margin-left: auto;
@@ -93,12 +95,16 @@
   cursor: pointer;
   user-select: none;
   transition: ease 0.3s;
+  color: white;
+  font-size: 2vh;
+  font-family: 'Poppins Medium', sans-serif;
+  text-decoration: none;
 }
 
-.redbutton:hover{
+.redbutton:hover {
   transform: scale(1.03);
 }
-  
+
 .spanTitle {
   color: #f54748;
   transition: ease 0.2s;
@@ -106,12 +112,6 @@
 
 .spanTitle:hover {
   letter-spacing: 0.5vh;
-}
-
-.textinbutton {
-  color: #fff;
-  font-size: 2vh;
-  font-family: 'Poppins Medium', sans-serif;
 }
 
 .whiteback {

@@ -6,6 +6,7 @@ import ramenIcon from './images/ramen-icon.png'
 import cl from './menuModal.module.css'
 import React from 'react'
 import { AnimatePresence, motion } from 'framer-motion'
+import { Link } from 'react-router-dom'
 
 interface IMenuModal {
   modal: string
@@ -23,7 +24,7 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
           exit={{ clipPath: 'inset(0% 0% 100% 0%)' }}
           transition={{ duration: 0.35, ease: 'easeInOut' }}
         >
-          <button className={cl.menuButton}>
+          <Link to={'/menu/burger'} className={cl.menuButton}>
             <img
               draggable={false}
               className={cl.buttonIcon}
@@ -31,8 +32,8 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
               alt="pizza-icon"
             />
             <p className={cl.buttonTitle}>Burger</p>
-          </button>
-          <button className={cl.menuButton}>
+          </Link>
+          <Link to={'/menu/pizza'} className={cl.menuButton}>
             <img
               draggable={false}
               className={cl.buttonIcon}
@@ -40,8 +41,8 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
               alt="drinks-icon"
             />
             <p className={cl.buttonTitle}>Pizza</p>
-          </button>
-          <button className={cl.menuButton}>
+          </Link>
+          <Link to={'/menu/cupcake'} className={cl.menuButton}>
             <img
               draggable={false}
               className={cl.buttonIconcup}
@@ -49,8 +50,8 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
               alt="desserts-icon"
             />
             <p className={cl.buttonTitle}>Cup Cake</p>
-          </button>
-          <button className={cl.menuButton}>
+          </Link>
+          <Link to={'/menu/ramen'} className={cl.menuButton}>
             <img
               draggable={false}
               className={cl.buttonIcon}
@@ -58,8 +59,8 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
               alt="desserts-icon"
             />
             <p className={cl.buttonTitle}>Ramen</p>
-          </button>
-          <button className={cl.menuButton}>
+          </Link>
+          <Link to={'/menu/icecream'} className={cl.menuButton}>
             <img
               draggable={false}
               className={cl.buttonIcon}
@@ -67,7 +68,7 @@ export const MenuModal: React.FC<IMenuModal> = ({ modal }) => {
               alt="desserts-icon"
             />
             <p className={cl.buttonTitle}>Ice Cream</p>
-          </button>
+          </Link>
         </motion.div>
       )}
     </AnimatePresence>
