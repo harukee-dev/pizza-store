@@ -85,15 +85,15 @@
 
 .cardpapa{
     display: flex;
+    flex-direction: row;
     text-align: center;
     justify-content: center;
-    background-color: #141414;
-    width: 32vh;
-    height: 50vh;
     border-radius: 3vh;
     margin-top: 5vh;
 }
 
 .card{
-    
+    width: 35vh;
+    height: 50vh;
+    border-radius: 3vh;
 }
