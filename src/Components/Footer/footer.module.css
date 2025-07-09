@@ -50,6 +50,7 @@ p{
     transition: ease, 0.3s;
     color: #787878;
     cursor: pointer;
+    text-decoration: none;
 }
 .link:hover{
     color:  #F54748;
@@ -71,7 +72,7 @@ p{
 .textnizpapa{
     display: flex;
     justify-content: right;
-
+    text-align: center;
 }
 
 .textniz{
